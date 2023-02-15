@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost;databaseName=Forex;trustServerCertificate=true
+    username: sa
+    password: 8806663407Ss@
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+      ddl-auto: update
+
+server:
+  port: 8081
+
+
+
+application:
+ name: Forex Application
